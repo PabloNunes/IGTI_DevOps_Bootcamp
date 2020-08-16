@@ -1,0 +1,32 @@
+## Módulo 2
+
+- Principios da primeira maneira
+  - Focando na aceleração com o Fluxo com qualidade
+  - Acelerar o fluxo dos desenvolvedores
+  - Pipeline colabora bastante com isso
+  - Arquitetura e releases de baixo risco
+  - Colocar isso em prática faz todos ganharem, ainda mais o cliente
+  - Sem isso, o cliente tem opções de qualidade e velocidade.
+  - Destaca principios e práticas que aceleram a implantação com qualidade, como pipeline, testes automatizados e releases de baixo risco.
+- Pipeline de implementação
+  - Propósito do pipeline
+    - Processo de automação do fluxo de valor que leva o software do controle de versão até o ambiente de produção
+    - Com o objetivo de fornecer feedback rápido a todos no fluxo de valor
+    - Colabora com a correção imediata quando ocorre problema
+  - Sobre o Pipeline, definimos
+    - O Pipeline tem várias fases precisando da integração e entrega continua.
+    - Da compilação, testes de acietação automatizados e testes de aceitação do usuário.
+    - Integração continua é o primeiro passo
+    - Entrega continua vai até o ambiente de produção mas espera um comando
+    - Implantação continua faz tudo automáticamente, indo de ponta a ponta.
+  - Requisitos de pipeline
+    - Implementar da mesma forma em todos os ambientes
+    - Fazer teste de fumaça nas implementações
+    - Garantir a manutenção de ambientes consistentes
+    - Adaptar a definição de pronto: Ao final de cada intervalo de desenvolvimento, temos código:
+      - Integrado
+      - Testado
+      - Funcionando que pode ser entregue
+      - Demonstrado em um ambiente de produção
+      - Criado do trunk com um processo de um clique e validado com testes automatizados
+  - Pipeline é um das práticas mais importantes para acelerar o fluxo da primeira maneira mantendo qualidade!
