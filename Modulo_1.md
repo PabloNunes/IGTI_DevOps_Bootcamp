@@ -1,0 +1,140 @@
+# Módulo 1
+
+- Como começou o DevOps?
+  - Velocity 2009, John Allspaw and Paul Hammond
+  - Como integrar o Dev com o Ops?
+  - O normal entre o Dev e o Ops era de conflito.
+  - Infra como Nuvem ja era visto como possivel pontencializador.
+- Benefícios da prática de DevOps
+  - Menos chances de falha
+  - Acelera o tempo entre Commit e o Deploy
+  - Deploys mais frequentes
+  - Mais tempo para novas features
+- Desafios da cultura DevOps
+  - Conflito entre o Dev e o Ops
+
+    |        Desenvolvimento        |            Operação           |
+    |:-----------------------------:|:-----------------------------:|
+    | Aumentar valor para o negócio | Proteger valor para o negócio |
+    |     Agilidade para inovar     |    Estabilidade do ambiente   |
+    |     Requisitos funcionais     |   Requisitos Não funcionais   |
+
+  - Esse conflito tem vários impactos, principalmente a lentidão em entregar o valor para o cliente.
+- Ciclos de vida
+  - Cascata
+    - As grandes empresas ainda usam cascata
+    - Etapas
+      - Área de Negócio
+      - Desenvolvedor e Q.A.
+      - Operação
+      - Clientes
+    - Problemas
+      - As áreas são muradas entre si, ou seja, não há comunicação
+      - O ambiente de desenvolvimento é bem diferente do de operação
+      - O produto demora muito tempo para chegar, no qual pode demorar demais num mundo dinâmico
+    - O Cascata pode ser utilizado nos tipos de projeto certo
+  - Ciclo de vida Ágil
+    - Mais áreas em conjunto, mas mesmo assim murada
+    - Etapas
+      - Negócio + Dev + Testes
+      - Operação
+      - Clientes
+    - Dividido em funcionalidades
+    - Problemas
+      - Ainda tem o problema de produção vs. operação
+      - Pode aumentar o conflito, pela junção de negócio e desenvolvimento vs a operação
+  - DevOps
+    - Estão todos juntos
+    - Etapas
+      - Negócio, Desenvolvimento, Testes e Operações
+      - Clientes
+    - Entrega valor continuamente
+    - DevOps é evolução natural da agilidade
+- DevOps e transformação digital
+  - Transformação Digital é a incorporação de vários serviços e produtos por soluções digitais
+  - Os clientes querem velocidade, isso é possível com uma solução escalavel digital
+  - Isso tudo, exige DevOps
+  - As tecnologias exponenciais: O que eram anos para um milhão de clientes, agora são em termos de dias.
+  - Precisamos inovar e trazer valor para conseguir fidelidade dos clientes.
+  - Falhas de software
+  - Toda empresa é uma empresa de software
+  - Clientes exigentes
+    - Temos que conhecer o nosso cliente e entregar resultados rápido, para ficar a frente do mercado
+- Pilares DevOps
+  - Jornada DevOps
+    - Precisamos saber que o DevOps abraça muita coisa nova, pois ele é continuo
+    - Cultura colaborativa
+    - Colaborar com ferramentas
+    - Testes e Pipeline
+    - Microsserviço, Infra como Código (IaaS)
+    - Telemetria, Medir resultados
+    - CI/CD
+    - Esquemas de agilidade, Lean, Scrum...
+    - Que precisar, o DevOps ele pode integrar práticas e usa a nuvem para melhorar resultados
+- DevOps CALMS
+  - Cinco caracteristicas de DevOps
+    - Cultura - Respeito às pessoas, confiança
+    - Automação - Integração e Entrega continua, Infra como Código, Jenkins, Sonar
+    - Lean - Valor para o cliente, lotes pequenos, cortar desperdicios
+    - Medição - Telemetria, Melhoria, Monitoração
+    - Sharing - Colaboração, Feedback, Transparência
+  - A cultura DevOps depende de automação, colaboração e lean
+- As três maneiras
+  - Somando essas maneiras podemos entrgar mais rápido
+  - Primeira maneira: Acelerar o fluxo dos desenvolvedores para operação e clientes
+    - Dar valor mais rápiod
+    - Trabalho visivel
+    - Reduzir tamanho dos lotes e intervalos
+    - Remover desperdicios
+    - Desenvolvimento por hipoteses e testes A/B
+    - Aglomerar quando problema aparece
+    - Revisão de código: Programação em pares
+  - Segunda Maneira: Rápido feedback em todos os estágios do fluxo
+    - Ver problemas quando ocorrem
+  - Terceira Maneira: Aprender continuamente, cultura de alta confiança que permite correr riscos
+    - Cultura justa e segura para aprender e evoluir com erros
+    - Injeção de falhas na produção para aumentar resiliência
+    - Converter descobertas globais para melhorias globais
+    - Reunião post-mortem
+    - Difundir conhecimento por testes automatizados
+  - Esses principios agrupam a jornada DevOps somando práticas colaborativas e automatização.
+- DataOps
+  - Trazer o que deu certo que deu certo em DevOps para dados
+  - Ter fluidez com dados, simplificar o uso de dados com responsabilidade
+  - Manifesto DataOps
+    - Individuos, interações sobre processos
+    - Trabalho de análise sobre uma documentação abrangente
+    - Colaboração do cliente sobre negociação de contratos
+    - Experimentação, iteração e resposta sobre um projeto detalhado e extenso
+    - Propriedade de todas as equipes nas operações sobre silos de responsabilidades
+  - Ciclo DataOps
+    - Sandbox
+    - Develop
+    - Orchestrate (I) - CI
+    - Test - CI
+    - Deploy - CD
+    - Orchestrate (II)
+    - Monitor
+  - DataOps e LGPD
+    - LGPD exige maiores controles sobre a privacidade
+  - DataOps se une ao DevOps para acelerar a entrega de dados e proteger a privacidade
+- Ferramentas
+  - Cuidados com ferramentes
+    - Saber usar a ferramenta, use que resolva o seu problema!
+    - Má implementação ou excesso de customização de ferramenta pode matar uma ferramenta
+    - Vá ao Gemba
+  - As ferramentas potencializam a adoção das práticas DevOps, mas podem atrapalhar se usadas erradas
+- Estrutura Organizacional
+  - Comando e controle: Empresas, Escolas
+    - Durou anos em trabalhos manuais
+    - Hierarquias fortes
+    - Atrapalha na colaboração e não foca no cliente
+  - Estrutura em Squad: Generaliza em forma T
+    - Cada um entrega uma parte do problema
+    - Foca no valor para o cliente
+    - Melhora confiança, Empatia e adaptabilidade.
+    - Consegue fazer ponta a ponta.
+    - Adapte melhor para sua situação!
+  - Perfil profissional indicado
+    - Ele precisa ter uma especialidade e sabe outras coisas além disso generalista, tem uma visão expandida.
+    - Pode até gostar dos outros pontos e virar um profissional em E (Especialista em várias coisas)
